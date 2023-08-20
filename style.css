@@ -1,0 +1,735 @@
+body {
+	background-color: #004d00;
+	/*	background-color: #003300; */
+}
+
+.grid {
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	background-color: skyblue;
+	width: 100vw;
+	height: 60vh;
+	z-index: -2;
+	overflow: hidden;
+}
+
+@keyframes cloudmove {
+	0% {
+		left: -20%;
+	}
+	100% {
+		left: 120%;
+	}
+}
+
+.testcloud-1 {
+	position: absolute;
+	background-color: rgba(255, 255, 255, 0.3);
+	width: 10%;
+	height: 10%;
+	bottom: 80%;
+	border-radius: 50%;
+	animation: cloudmove 60s infinite linear;
+	z-index: 1;
+}
+.testcloud-2 {
+	position: absolute;
+	background-color: rgba(255, 255, 255, 0.8);
+	width: 10%;
+	height: 10%;
+	bottom: 70%;
+	border-radius: 50%;
+	animation: cloudmove 500s infinite linear;
+	z-index: -1;
+}
+.testcloud-3 {
+	position: absolute;
+	background-color: rgba(255, 255, 255, 0.4);
+	width: 10%;
+	height: 10%;
+	bottom: 60%;
+	border-radius: 50%;
+	animation: cloudmove 140s infinite linear;
+	z-index: -1;
+}
+
+.testcloud-4 {
+	position: absolute;
+	background-color: rgba(255, 255, 255, 0.5);
+	width: 10%;
+	height: 10%;
+	bottom: 80%;
+	border-radius: 50%;
+	animation: cloudmove 300s infinite linear;
+	z-index: -1;
+}
+
+.testcloud-5 {
+	position: absolute;
+	background-color: rgba(255, 255, 255, 0.2);
+	width: 10%;
+	height: 10%;
+	bottom: 95%;
+	border-radius: 50%;
+	animation: cloudmove 74s infinite linear;
+	z-index: -1;
+}
+
+.testcloud-6 {
+	position: absolute;
+	background-color: rgba(255, 255, 255, 0.3);
+	width: 10%;
+	height: 10%;
+	bottom: 85%;
+	border-radius: 50%;
+	animation: cloudmove 70s infinite linear;
+	z-index: -1;
+}
+
+.testcloud-7 {
+	position: absolute;
+	background-color: rgba(255, 255, 255);
+	width: 10%;
+	height: 10%;
+	bottom: 75%;
+	border-radius: 50%;
+	animation-delay: -19s;
+	animation: cloudmove 88s infinite linear;
+	z-index: -1;
+}
+
+.testcloud-8 {
+	position: absolute;
+	background-color: rgba(255, 255, 255, 0.6);
+	width: 10%;
+	height: 10%;
+	bottom: 65%;
+	border-radius: 50%;
+	animation-delay: -35s;
+	animation: cloudmove 59s infinite linear;
+	z-index: -1;
+}
+
+.testcloud-9 {
+	position: absolute;
+	background-color: rgba(255, 255, 255, 0.5);
+	width: 10%;
+	height: 10%;
+	bottom: 70%;
+	border-radius: 50%;
+	animation-delay: -100s;
+	animation: cloudmove 500s infinite linear;
+	z-index: -1;
+}
+
+.testcloud-10 {
+	position: absolute;
+	background-color: rgba(255, 255, 255);
+	width: 10%;
+	height: 10%;
+	bottom: 88%;
+	border-radius: 50%;
+	animation-delay: -4s;
+	animation: cloudmove 160s infinite linear;
+	z-index: -1;
+}
+
+.testcloud-11 {
+	position: absolute;
+	background-color: rgba(255, 255, 255, 0.3);
+	width: 10%;
+	height: 10%;
+	bottom: 77%;
+	border-radius: 50%;
+	animation-delay: 10s;
+	animation: cloudmove 50s infinite linear;
+	z-index: -1;
+}
+
+.building-1 {
+	position: absolute;
+	background-color: saddlebrown;
+	width: 7%;
+	height: 49%;
+	left: 22%;
+	bottom: 0;
+	z-index: 0;
+}
+
+.building-2 {
+	position: absolute;
+	background-color: #112200;
+	width: 8%;
+	height: 50%;
+	left: 40%;
+	bottom: 0;
+	z-index: 1;
+}
+
+.building-3 {
+	position: absolute;
+	background-color: #1a0d00;
+	width: 6%;
+	height: 30%;
+	left: 52%;
+	bottom: 0;
+	z-index: 1;
+}
+
+.building-4 {
+	position: absolute;
+	background-color: #112233;
+	width: 10%;
+	height: 79%;
+	left: 40%;
+	bottom: 0;
+}
+
+.building-5 {
+	position: absolute;
+	background-color: #112200;
+	width: 7%;
+	height: 65%;
+	left: 58%;
+	bottom: 0;
+}
+
+.building-6 {
+	position: absolute;
+	background-color: #112233;
+	width: 9%;
+	height: 40%;
+	left: 28%;
+	bottom: 0;
+	z-index: 1;
+}
+
+.building-7 {
+	position: absolute;
+	background-color: #112200;
+	width: 7%;
+	height: 60%;
+	left: 13%;
+	bottom: 0;
+	z-index: 2;
+}
+
+.building-8 {
+	position: absolute;
+	background-color: dimgray;
+	width: 9%;
+	height: 20%;
+	left: 56%;
+	bottom: 0;
+	z-index: 4;
+}
+
+.building-9 {
+	position: absolute;
+	background-color: #111111;
+	width: 7%;
+	height: 48%;
+	left: 63%;
+	bottom: 0;
+	z-index: 1;
+}
+
+.building-10 {
+	position: absolute;
+	background-color: darkslategray;
+	width: 6%;
+	height: 57%;
+	left: 61%;
+	bottom: 0;
+	z-index: 0;
+}
+
+.building-11 {
+	position: absolute;
+	background-color: dimgray;
+	width: 7%;
+	height: 67%;
+	left: 33%;
+	bottom: 0;
+	z-index: 0;
+}
+
+.building-12 {
+	position: absolute;
+	background-color: saddlebrown;
+	width: 9%;
+	height: 25%;
+	left: 35%;
+	bottom: 0;
+	z-index: 1;
+}
+
+.building-13 {
+	position: absolute;
+	background-color: darkslategray;
+	width: 7%;
+	height: 15%;
+	left: 40%;
+	bottom: 0;
+	z-index: 1;
+}
+
+.building-14 {
+	position: absolute;
+	background-color: rgb(83, 43, 14);
+	width: 8%;
+	height: 60%;
+	left: 35%;
+	bottom: 0;
+}
+
+.building-15 {
+	position: absolute;
+	background-color: darkslategray;
+	width: 6%;
+	height: 91%;
+	left: 51%;
+	bottom: 0;
+}
+
+.building-16 {
+	position: absolute;
+	background-color: #4d2800;
+	width: 6.5%;
+	height: 60%;
+	left: 25%;
+	bottom: 0;
+	z-index: -1;
+}
+
+.building-17 {
+	position: absolute;
+	background-color: dimgray;
+	width: 7%;
+	height: 70%;
+	left: 10%;
+	bottom: 0;
+	z-index: 0;
+}
+
+.building-18 {
+	position: absolute;
+	background-color: darkslategray;
+	width: 7%;
+	height: 23%;
+	left: 9%;
+	bottom: 0;
+	z-index: 4;
+}
+
+.building-19 {
+	position: absolute;
+	background-color: #4d2800;
+	width: 5%;
+	height: 50%;
+	left: 74%;
+	bottom: 0;
+	z-index: 2;
+}
+
+.building-20 {
+	position: absolute;
+	background-color: #4d2800;
+	width: 8%;
+	height: 15%;
+	left: 80%;
+	bottom: 0;
+	z-index: 4;
+}
+
+.building-21 {
+	position: absolute;
+	background-color: #112233;
+	width: 16%;
+	height: 35%;
+	left: 7%;
+	bottom: 0;
+	z-index: 0;
+}
+
+.building-22 {
+	position: absolute;
+	background-color: #113344;
+	width: 7%;
+	height: 20%;
+	left: 91%;
+	bottom: 0;
+	z-index: 2;
+}
+
+.building-23 {
+	position: absolute;
+	background-color: rgb(37, 20, 5);
+	width: 5%;
+	height: 55%;
+	left: 80%;
+	bottom: 0;
+	z-index: 2;
+}
+
+.building-24 {
+	position: absolute;
+	background-color: #1b3a49;
+	width: 5%;
+	height: 36%;
+	left: 70%;
+	bottom: 0;
+	z-index: 2;
+}
+
+.building-25 {
+	position: absolute;
+	background-color: #264c5f;
+	width: 6%;
+	height: 45%;
+	left: 84%;
+	bottom: 0;
+	z-index: 2;
+}
+
+.building-26 {
+	position: absolute;
+	background-color: #1f343f;
+	width: 5%;
+	height: 26%;
+	left: 75%;
+	bottom: 0;
+	z-index: 2;
+}
+
+.building-27 {
+	position: absolute;
+	background-color: #2b2e28;
+	width: 8%;
+	height: 38%;
+	left: 68%;
+	bottom: 0;
+	z-index: 2;
+}
+
+.building-28 {
+	position: absolute;
+	background-color: #3c5361;
+	width: 5%;
+	height: 30%;
+	left: 80%;
+	bottom: 0;
+	z-index: 2;
+}
+
+.building-29 {
+	position: absolute;
+	background-color: firebrick;
+	width: 0.5%;
+	height: 10%;
+	left: 2%;
+	bottom: 0;
+	z-index: 2;
+}
+
+.building-30 {
+	position: absolute;
+	background-color: firebrick;
+	width: 0.5%;
+	height: 10%;
+	left: 6%;
+	bottom: 0;
+	z-index: 3;
+}
+.building-31 {
+	position: absolute;
+	background-color: firebrick;
+	width: 0.5%;
+	height: 10%;
+	left: 10%;
+	bottom: 0;
+	z-index: 2;
+}
+
+.building-32 {
+	position: absolute;
+	background-color: firebrick;
+	width: 0.5%;
+	height: 10%;
+	left: 14%;
+	bottom: 0;
+	z-index: 2;
+}
+
+.building-33 {
+	position: absolute;
+	background-color: firebrick;
+	width: 0.5%;
+	height: 10%;
+	left: 18%;
+	bottom: 0;
+	z-index: 2;
+}
+
+.building-34 {
+	position: absolute;
+	background-color: firebrick;
+	width: 0.5%;
+	height: 10%;
+	left: 22%;
+	bottom: 0;
+	z-index: 2;
+}
+
+.building-35 {
+	position: absolute;
+	background-color: firebrick;
+	width: 0.5%;
+	height: 10%;
+	left: 26%;
+	bottom: 0;
+	z-index: 2;
+}
+.building-36 {
+	position: absolute;
+	background-color: firebrick;
+	width: 0.5%;
+	height: 10%;
+	left: 30%;
+	bottom: 0;
+	z-index: 2;
+}
+
+.building-37 {
+	position: absolute;
+	background-color: firebrick;
+	width: 0.5%;
+	height: 10%;
+	left: 34%;
+	bottom: 0;
+	z-index: 2;
+}
+
+.building-38 {
+	position: absolute;
+	background-color: firebrick;
+	width: 0.5%;
+	height: 10%;
+	left: 38%;
+	bottom: 0;
+	z-index: 2;
+}
+
+.building-39 {
+	position: absolute;
+	background-color: firebrick;
+	width: 0.5%;
+	height: 10%;
+	left: 42%;
+	bottom: 0;
+	z-index: 2;
+}
+
+.building-40 {
+	position: absolute;
+	background-color: firebrick;
+	width: 0.5%;
+	height: 10%;
+	left: 46%;
+	bottom: 0;
+	z-index: 2;
+}
+
+.building-41 {
+	position: absolute;
+	background-color: firebrick;
+	width: 0.5%;
+	height: 10%;
+	left: 50%;
+	bottom: 0;
+	z-index: 2;
+}
+
+.building-42 {
+	position: absolute;
+	background-color: firebrick;
+	width: 0.5%;
+	height: 10%;
+	left: 54%;
+	bottom: 0;
+	z-index: 2;
+}
+
+.building-43 {
+	position: absolute;
+	background-color: firebrick;
+	width: 0.5%;
+	height: 10%;
+	left: 58%;
+	bottom: 0;
+	z-index: 2;
+}
+
+.building-44 {
+	position: absolute;
+	background-color: firebrick;
+	width: 0.5%;
+	height: 10%;
+	left: 62%;
+	bottom: 0;
+	z-index: 2;
+}
+
+.building-45 {
+	position: absolute;
+	background-color: firebrick;
+	width: 0.5%;
+	height: 10%;
+	left: 66%;
+	bottom: 0;
+	z-index: 2;
+}
+
+.building-46 {
+	position: absolute;
+	background-color: firebrick;
+	width: 0.5%;
+	height: 10%;
+	left: 70%;
+	bottom: 0;
+	z-index: 2;
+}
+
+.building-47 {
+	position: absolute;
+	background-color: firebrick;
+	width: 0.5%;
+	height: 10%;
+	left: 74%;
+	bottom: 0;
+	z-index: 2;
+}
+
+.building-48 {
+	position: absolute;
+	background-color: firebrick;
+	width: 0.5%;
+	height: 10%;
+	left: 78%;
+	bottom: 0;
+	z-index: 2;
+}
+
+.building-49 {
+	position: absolute;
+	background-color: firebrick;
+	width: 0.5%;
+	height: 10%;
+	left: 82%;
+	bottom: 0;
+	z-index: 2;
+}
+
+.building-50 {
+	position: absolute;
+	background-color: firebrick;
+	width: 0.5%;
+	height: 10%;
+	left: 86%;
+	bottom: 0;
+	z-index: 2;
+}
+
+.building-51 {
+	position: absolute;
+	background-color: firebrick;
+	width: 0.5%;
+	height: 10%;
+	left: 90%;
+	bottom: 0;
+	z-index: 2;
+}
+
+.building-52 {
+	position: absolute;
+	background-color: firebrick;
+	width: 0.5%;
+	height: 10%;
+	left: 94%;
+	bottom: 0;
+	z-index: 2;
+}
+
+.building-53 {
+	position: absolute;
+	background-color: firebrick;
+	width: 0.5%;
+	height: 10%;
+	left: 98%;
+	bottom: 0;
+	z-index: 2;
+}
+
+.building-54 {
+	position: absolute;
+	background-color: firebrick;
+	width: 0.5%;
+	height: 10%;
+	left: 86%;
+	bottom: 0;
+	z-index: 2;
+}
+
+.building-55 {
+	position: absolute;
+	background-color: firebrick;
+	width: 0.5%;
+	height: 10%;
+	left: 86%;
+	bottom: 0;
+	z-index: 2;
+}
+
+.train-track {
+	position: absolute;
+	background-color: black;
+	width: 100vw;
+	height: 2%;
+	bottom: 10%;
+	z-index: 2;
+}
+
+@keyframes trainmove {
+	0% {
+		left: -14%;
+	}
+	100% {
+		left: 110%;
+	}
+}
+
+.train {
+	position: absolute;
+	border-top-left-radius: 5pt;
+	border-top-right-radius: 50px;
+	border-bottom-right-radius: 5pt;
+	border-bottom-left-radius: 5pt;
+	background-color: #555;
+	width: 9%;
+	height: 5%;
+	bottom: 11.5%;
+	animation: trainmove 24s infinite linear;
+	z-index: 2;
+}
+
+.glass-tram-cover {
+	position: absolute;
+
+	background-color: rgba(70, 255, 240, 0.3);
+	width: 100%;
+	height: 7.5%;
+	bottom: 10%;
+	z-index: 3;
+}
